@@ -1,6 +1,63 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body{
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+}
+/* Navbar */
+.navbar {
+  background: #c62828;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+.navbar .head {
+  font-size: 22px;
+  font-weight: bold;
+  gap: 20px;
+  display: flex;  
+  align-items: center;
+}
+
+.nav-link {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-link li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  align-items: center; 
+  padding: 5px 10px;
+}
+
+/* Header */
+.header {
   text-align: center;
+  padding: 50px 20px;
+  background: #ef5350;
+  color: white;
+}
+
+.header .text {
+  max-width: 50%;
+}
+.header img {
+  width: 100%;       
+  width: 45%;
+  height: auto;       
+  border-radius: 10px;  
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+  margin-top: 20px;
+}
+
+
+/* Footer */
+.footer {
+  background: #263238;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
 }
